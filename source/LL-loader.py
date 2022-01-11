@@ -14,7 +14,7 @@ if (LXL == 'yes'):
 
 print('Beginning downloading files...') 
 bds = 'https://minecraft.azureedge.net/bin-win/bedrock-server-'+ BDS +'.zip'
-ll = 'https://github.com/LiteLDev/LiteLoaderBDS/releases/download/'+ LL +'/LiteLoader.zip'
+ll = 'https://github.com/LiteLDev/LiteLoaderBDS/releases/download/'+ LL +'/LiteLoader-' + LL + '.zip'
 if (LXL == 'yes'):
     lxl = 'https://github.com/LiteLDev/LiteXLoader/releases/download/v'+ LXL_ver + '/LiteXLoader.zip'
     urllib.request.urlretrieve(lxl, 'LiteXLoader.zip')
